@@ -1,38 +1,16 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">Stable Diffusion Web UI</a>
+	Charcoal theme for <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui">Stable Diffusion Web UI</a>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/Stable-Diffusion-Web-Ui/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/Stable-Diffusion-Web-Ui?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/Stable-Diffusion-Web-Ui/issues"><img src="https://img.shields.io/github/issues/catppuccin/Stable-Diffusion-Web-Ui?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/Stable-Diffusion-Web-Ui/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/Stable-Diffusion-Web-Ui?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<img src="/assets/screenshot.webp"/>
 </p>
 
-<p align="center">
-	<img src="/assets/res.webp"/>
-</p>
-
-## Previews
-
-<details>
-<summary>🌻 Latte</summary>
-<img src="/assets/latte.webp"/>
-</details>
-<details>
-<summary>🪴 Frappé</summary>
-<img src="/assets/frappe.webp"/>
-</details>
-<details>
-<summary>🌺 Macchiato</summary>
-<img src="/assets/macchiato.webp"/>
-</details>
-<details>
-<summary>🌿 Mocha</summary>
-<img src="/assets/mocha.webp"/>
-</details>
+## Description
+This color scheme for SD WebUI is based on Catppuccin and includes some CSS changes. The theme is only available in dark mode. I am not a CSS expert, so I don't know how to change some properties on the img2img tab. I was not able to change the output borders and borders for the extension carousel. Kudos to the Catppuccin creators!
 
 ## Usage
 
@@ -41,19 +19,9 @@
 1. Open WebUI
 2. Click on the "Extensions" tab
 3. Click on the "Install from URL" subsection
-4. Paste `https://github.com/catppuccin/stable-diffusion-webui` into the URL spot, set the local directory name to `Catppuccin Theme`, and install
+4. Paste `https://github.com/younyokel/charcoal-webui-theme/` into the URL spot, set the local directory name to `Catppuccin Theme`, and install
 5. Go to "Installed" subsection and click "Apply and restart UI"
 6. Configure the theme from the "Settings" tab under "Catppuccin Theme", afterwards you must "Apply Settings" and "Reload UI"
-
-### Extension (Extension index)
-
-NOTE: This method will install the theme under the name "stable-diffusion-webui". You can read more about this issue in the next section.
-
-1. Open WebUI
-2. Click on the "Extensions" tab and navigate to "Available"
-3. Click "Load From:" and find and install "Catppuccin Theme" from the list
-4. Go to "Installed" subsection and click "Apply and restart UI"
-5. Configure the theme from the "Settings" tab under "Catppuccin Theme", afterwards you must "Apply Settings" and "Reload UI"
 
 ### Add directly
 
@@ -61,10 +29,6 @@ NOTE: This method will install the theme under the name "stable-diffusion-webui"
 2. Create the file `user.css` in your stable-diffusion-webui directory
 3. Copy the contents of the desired flavor into `user.css`
 4. Restart the Web UI or click "Reload UI" at the bottom of the screen
-
-## NOTE
-
-Due to catppuccin naming conventions and limitations in webui's extension names, this extension will come up as "stable-diffusion-webui" in the extension update section. I have proposed a solution to WebUI [here](https://github.com/catppuccin/stable-diffusion-webui/issues/5#issuecomment-1420599298), feel free to upvote it increase the chances of this issue being resolved.
 
 ## 🙋 FAQ
 
